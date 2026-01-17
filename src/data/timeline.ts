@@ -191,20 +191,22 @@ export const timelineData: TimelineItem[] = [
 		color: "#2563EB",
 	},
 	{
-		id: "first-programming-experience",
-		title: "First Programming Experience",
-		description:
-			"First encountered programming in high school IT class, started learning Python basic syntax.",
-		type: "education",
-		startDate: "2021-03-01",
-		skills: ["Python", "Basic Programming Concepts"],
-		achievements: [
-			'Completed first "Hello World" program',
-			"Learned basic loops and conditional statements",
-			"Developed interest in programming",
+		"id": "minecraft-to-website-journey",
+		"title": "初二寒暑假：从我的世界到网站搭建的探索之旅",
+		"description": "初二的寒暑假，因沉迷《我的世界》联机玩法开启了意外的技术探索：从好奇“好友如何一起玩”，到主动摸索服务器搭建教程，熬夜研究端口映射、插件配置，成功搭建起专属私人服务器与好友畅快联机；这份探索欲并未止步，后续又顺着兴趣解锁网站搭建技能，从静态页面到简单动态网站，在游戏与实践中悄悄埋下了对编程和网络技术的热爱种子。",
+		"type": "education",
+		"startDate": "20XX-01-15", // 替换为实际初二寒假开始日期
+		"endDate": "20XX-08-30", // 替换为实际初二暑假结束日期
+		"skills": ["Minecraft服务器配置", "基础网络知识", "端口映射", "HTML/CSS入门", "网站搭建基础", "服务器运维基础"],
+		"achievements": [
+		  "独立搭建私人Minecraft服务器，实现与好友稳定联机",
+		  "自学端口映射、插件安装与权限配置，解决联机卡顿问题",
+		  "基于WordPress/静态模板搭建首个个人网站，完成内容部署",
+		  "掌握基础网络原理与服务器运维逻辑",
+		  "以游戏为起点，点燃对编程和网络技术的长期兴趣"
 		],
-		icon: "material-symbols:code",
-		color: "#7C3AED",
+		"icon": "material-symbols:server",
+		"color": "#10B981"
 	},
 ];
 

@@ -20,6 +20,13 @@ const diaryData: DiaryItem[] = [
 		date: "2025-01-15T10:30:00Z",
 		images: ["/images/diary/sakura.jpg", "/images/diary/1.jpg"],
 	},
+
+	{
+		"id": 2,
+		"content": "时隔许久，再次部署起属于自己的小博客～ 不为流量与喧嚣，只为给生活留一方温柔的存档天地：清晨氤氲的咖啡香、下班路上撞见的橘色晚霞、偶然发现的小众书单、代码调试成功后的雀跃，还有那些一闪而过的细碎感悟。用文字与图片定格日常，让时光的痕迹在页面里慢慢沉淀，把平凡日子里的小美好，一一珍藏✨",
+		"date": "2025-08-30T14:18:00Z",
+		"images": ["/images/blog/deploy-new.jpg", "/images/life/moments-collection.jpg"]
+	  },
 ];
 
 // 获取日记统计数据

@@ -3,47 +3,47 @@ This website is built with the **Astro** framework using the [Mizuki](https://gi
 
 ::github{repo="matsuzaka-yuki/Mizuki"}
 
-## 🌟 Theme Features
-
-### 🎨 Design & User Experience
-- **Modern & Elegant Design** - Clean, minimalist interface with beautiful typography
-- **Fully Responsive** - Optimized for all devices from mobile to desktop
-- **Dark/Light Mode** - Automatic theme switching with smooth transitions
-- **Beautiful Typography** - Enhanced readability with JetBrains Mono font
-- **Smooth Animations** - Fluid page transitions and interactive elements
-
-### 🔍 Content & Search
-- **Advanced Search** - Powered by [Pagefind](https://pagefind.app/) for fast, accurate results
-- **Enhanced Markdown** - Extended syntax with code highlighting and math support
-- **Interactive Table of Contents** - Auto-scroll navigation for long articles
-- **RSS Feed Generation** - Stay updated with automatic feed generation
-- **Reading Time Estimation** - Know how long articles take to read
-- **Post Categorization** - Organize content with tags and categories
+# 独立游戏开发团队 · 动作肉鸽新作
+我们是一支小型独立开发团队，正全力打磨一款**动作肉鸽类型的小游戏**——用热爱填充电玩世界里的有趣角落！
 
 
+### 👥 团队成员列表
+- 🎨 美工：チョ（主美）、板栗壳
+- 📋 策划：陆行
+- 💻 程序：SalmonBall、xinzhen、老朱佩琪
+- 📖 小说：D
+- 🎵 音效：YuYiMao
 
-### 📱 Special Pages
-- **Anime Tracking Page** - Track your anime watching progress with ratings
-- **Friends Links Page** - Showcase friend websites with beautiful cards
-- **Diary/Moments Page** - Share life moments like social media posts
-- **Archive Page** - Organized timeline view of all posts
-- **About Page** - Customizable personal introduction (this page!)
-
-### 🛠 Technical Features
-- **Enhanced Code Blocks** - Powered by [Expressive Code](https://expressive-code.com/)
-- **Math Support** - LaTeX rendering with KaTeX for mathematical expressions
-- **Image Optimization** - PhotoSwipe gallery with lazy loading
-- **SEO Optimized** - Built-in sitemap and meta tags for better search visibility
-- **Performance Optimized** - Fast loading with caching and optimization
-- **Comment System Ready** - Integration support for Twikoo comments
-
-### 🎯 Advanced Markdown Features
-- **Callouts & Admonitions** - Beautiful info boxes with `> [!NOTE]`, `> [!TIP]`, `> [!WARNING]`
-- **Mathematical Equations** - Write LaTeX math with `$inline$` and `$$block$$` syntax
-- **GitHub Cards** - Embed repository cards with `::github{repo="user/repo"}`
-- **Syntax Highlighting** - Advanced code highlighting with line numbers
-- **Copy Code Buttons** - Easy code copying functionality
 
 ---
 
-*Built with ❤️ using Astro and inspired by modern web design principles.*
+## 🌟 游戏核心亮点
+
+### 🎮 动作玩法特色
+- **流畅战斗体验**：设计多套连招组合，兼顾操作深度与新手友好度
+- **多武器差异化**：近战/灵活/范围攻击等武器类型，对应不同战斗节奏
+- **Boss战专属机制**：每关最终Boss都有独特应对逻辑，考验反应+策略
+
+### 🎲 肉鸽随机元素
+- **关卡全域随机**：地图布局、敌人配置、资源点位每次游玩都有新体验
+- **Build自由流派**：随机掉落的战斗词条+增益道具，搭配出专属战斗风格
+- **风险收益分支**：可选高难度关卡路线，换取稀有强化道具
+
+### ✨ 独立开发专属亮点
+- **轻量原创剧情**：由小说担当执笔，打造有记忆点的微型世界观
+- **手绘风格美术**：双美工协作打磨，呈现独有的视觉质感
+- **沉浸音效适配**：定制战斗音效+节奏BGM，匹配肉鸽的紧张节奏
+
+
+---
+
+*独立团队的小野心：用热爱打磨每一处战斗细节，期待和你在随机的关卡里相遇！*
+
+# 关于我：前端工程师 × 业余游戏主程
+我是一名前端工程师，同时以**业余游戏主程**的身份捣鼓动作肉鸽小游戏；日常里弹弹钢琴、打打乒乓球——这配置，绝对不算死宅吧~
+
+
+### 🏷 身份标签
+- 💻 主业：前端工程师（主流技术栈全覆盖）
+- 🎮 副业：业余游戏主程（独立搭建小型游戏技术框架）
+- 🎹 日常：钢琴+乒乓球双爱好者

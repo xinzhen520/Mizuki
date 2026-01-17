@@ -20,8 +20,8 @@ export interface Project {
 
 export const projectsData: Project[] = [
 	{
-		id: "mizuki-blog",
-		title: "Mizuki Blog Theme",
+		id: "xinzhen-blog",
+		title: "xinzhen Blog Theme",
 		description:
 			"Modern blog theme developed based on the Astro framework, supporting multilingual, dark mode, and responsive design features.",
 		image: "",
@@ -29,69 +29,30 @@ export const projectsData: Project[] = [
 		techStack: ["Astro", "TypeScript", "Tailwind CSS", "Svelte"],
 		status: "completed",
 		liveDemo: "https://blog.example.com",
-		sourceCode: "https://github.com/example/mizuki", // 更改为GitHub链接
+		sourceCode: "https://github.com/xinzhen520/Mizuki", // 更改为GitHub链接
 		visitUrl: "https://blog.example.com", // 添加前往项目链接
 		startDate: "2024-01-01",
-		endDate: "2024-06-01",
+		endDate: "2025-12-01",
 		featured: true,
 		tags: ["Blog", "Theme", "Open Source"],
 	},
 	{
-		id: "portfolio-website",
-		title: "Personal Portfolio",
+		id: "game demo",
+		title: "动作肉鸽小游戏Demo",
 		description:
-			"Personal portfolio website showcasing project experience and technical skills.",
-		image: "",
-		category: "web",
-		techStack: ["React", "Next.js", "TypeScript", "Framer Motion"],
-		status: "completed",
-		liveDemo: "https://portfolio.example.com",
-		sourceCode: "https://github.com/example/portfolio",
-		visitUrl: "https://portfolio.example.com", // 添加前往项目链接
-		startDate: "2023-09-01",
-		endDate: "2023-12-01",
-		featured: true,
-		tags: ["Portfolio", "React", "Animation"],
-	},
-	{
-		id: "task-manager-app",
-		title: "Task Manager App",
-		description:
-			"Cross-platform task management application supporting team collaboration and project management.",
-		image: "",
-		category: "mobile",
-		techStack: ["React Native", "TypeScript", "Redux", "Firebase"],
-		status: "in-progress",
-		startDate: "2024-03-01",
-		tags: ["Mobile", "Productivity", "Team Collaboration"],
-	},
-	{
-		id: "data-visualization-tool",
-		title: "Data Visualization Tool",
-		description:
-			"Data visualization tool supporting multiple chart types and interactive analysis.",
-		image: "",
-		category: "web",
-		techStack: ["Vue.js", "D3.js", "TypeScript", "Node.js"],
-		status: "completed",
-		liveDemo: "https://dataviz.example.com",
-		visitUrl: "https://dataviz.example.com", // 添加前往项目链接
-		startDate: "2023-06-01",
-		endDate: "2023-11-01",
-		tags: ["Data Visualization", "Analytics", "Charts"],
-	},
-	{
-		id: "e-commerce-platform",
-		title: "E-commerce Platform",
-		description:
-			"Full-stack e-commerce platform including user management, product management, and order processing features.",
-		image: "",
-		category: "web",
-		techStack: ["Next.js", "Node.js", "PostgreSQL", "Stripe"],
-		status: "planned",
-		startDate: "2024-07-01",
-		tags: ["E-commerce", "Full Stack", "Payment Integration"],
-	},
+		  "作为独立开发团队主程，基于Unity引擎的动作肉鸽（Roguelike）小游戏Demo。融合流畅的即时战斗系统、随机生成的关卡地图与多流派Build玩法，支持多武器差异化战斗、Boss专属机制设计，全程基于Unity生态完成游戏核心逻辑、物理碰撞、场景渲染与资源管理，目前处于持续迭代优化阶段。",
+		image: "/images/projects/unity-roguelike-demo.webp", // 建议放游戏实机截图/UI设计图
+		category: "desktop", // 游戏为Unity开发，选desktop（桌面端）/other（其他）均可
+		techStack: ["Unity", "C#", "UGUI", "ScriptableObject", "Addressables", "DOTween"], // 核心Unity技术栈
+		status: "in-progress", // 开发中状态（完成后可改为completed）
+		liveDemo: "", // 若有可运行的Demo包链接可填写，无则留空
+		sourceCode: "", // 若开源可填仓库地址，独立游戏可留空
+		visitUrl: "", // 若有游戏介绍页可填写，无则留空
+		startDate: "2025-12-10", // 替换为实际开发启动日期
+		// endDate: "", // 开发中状态无需填写，完成后补充
+		featured: true, // 设为特色项目优先展示
+		tags: ["动作肉鸽", "Unity开发", "独立游戏", "Roguelike", "C#", "游戏主程"],
+	  },
 ];
 
 // Get project statistics
