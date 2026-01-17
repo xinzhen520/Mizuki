@@ -22,8 +22,8 @@ import { LinkPreset } from "./types/config";
 const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 const SITE_TIMEZONE = 8; //设置你的网站时区 from -12 to 12 default in UTC+8
 export const siteConfig: SiteConfig = {
-	title: "Xinzhen",
-	subtitle: "One demo website",
+	title: "xinzhen",
+	subtitle: "xinzhen Personal Blog",
 	siteURL: "https://xinzhen.xyz/", // 请替换为你的站点URL，以斜杠结尾
 	siteStartDate: "2025-01-25", // 站点开始运行日期，用于站点统计组件计算运行天数
 
@@ -51,9 +51,9 @@ export const siteConfig: SiteConfig = {
 	// 顶栏标题配置
 	navbarTitle: {
 		// 顶栏标题文本
-		text: "xinzhenUI",
+		text: "xinzhen",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.png
-		icon: "assets/home/home.png",
+		icon: "assets/home/xinzhen.jpg",
 	},
 
 	bangumi: {
@@ -336,8 +336,8 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/avatar.webp", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
-	name: "Matsuzaka Yuki",
+	avatar: "assets/images/xinzhen.jpg", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
+	name: "xinzhen blog",
 	bio: "The world is big, you have to go and see",
 	typewriter: {
 		enable: true, // 启用个人简介打字机效果
@@ -347,17 +347,17 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "Bilibli",
 			icon: "fa6-brands:bilibili",
-			url: "https://space.bilibili.com/701864046",
+			url: "https://space.bilibili.com/1565761118",
 		},
 		{
 			name: "Gitee",
 			icon: "mdi:git",
-			url: "https://gitee.com/matsuzakayuki",
+			url: "https://gitee.com/xinzhen_1_0",
 		},
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://github.com/matsuzaka-yuki",
+			url: "https://github.com/xinzhen520",
 		},
 		{
 			name: "Codeberg",
@@ -644,7 +644,7 @@ export const pioConfig: import("./types/config").PioConfig = {
 	mode: "draggable", // 默认为可拖拽模式
 	hiddenOnMobile: true, // 默认在移动设备上隐藏
 	dialog: {
-		welcome: "Welcome to Mizuki Website!", // 欢迎词
+		welcome: "Welcome to xinzhen Website!", // 欢迎词
 		touch: [
 			"What are you doing?",
 			"Stop touching me!",
@@ -654,7 +654,7 @@ export const pioConfig: import("./types/config").PioConfig = {
 		home: "Click here to go back to homepage!", // 首页提示
 		skin: ["Want to see my new outfit?", "The new outfit looks great~"], // 换装提示
 		close: "QWQ See you next time~", // 关闭提示
-		link: "https://github.com/matsuzaka-yuki/Mizuki", // 关于链接
+		link: "https://github.com/xinzhen520", // 关于链接
 	},
 };
 
